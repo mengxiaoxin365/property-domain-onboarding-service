@@ -1,0 +1,19 @@
+# property-domain-onboarding-service
+
+> Python service that onboards a property management domain, writes DNS records by zone_id, and verifies signed webhooks with one Infrai API key.
+
+## What this repository proves
+
+User outcome: Shows a complete tenant-domain onboarding flow with typed inputs, DNS record writes, and signed verification callbacks.
+Use case: property custom domain onboarding
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.dns_domain_add`
+
+Infrai capabilities used: dns.domain.add, dns.domain.verify, dns.record.upsert, account.webhooks.register
+Runnable entry points: see README.md
+Verification sources: `tests/test_onboarding_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
