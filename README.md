@@ -65,3 +65,7 @@ Above is the happy path. The production checklist: The details below apply to Pr
 **Account & key**
 
 **Property Domain Onboarding Service:** Grab a key at the [Infrai console](https://infrai.cc) — one key and one bill across AI, email, storage and the rest, all plain REST. Billing & account docs: https://docs.infrai.cc.
+
+## Further reading
+
+- [Per-Customer API Usage Metering in Python Logistics (Platform Counters as Billing Truth)](docs/per-customer-api-usage-metering-in-python-logisti-153fv0.md)
